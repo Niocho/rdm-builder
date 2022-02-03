@@ -17,7 +17,11 @@ on:
     paths-ignore: 
       - 'README.md'
       - 'LICENSE'
-  on: workflow_dispatch
+  workflow_dispatch:
+    branches: [ master ]
+    paths-ignore: 
+      - 'README.md'
+      - 'LICENSE'
 
 env:
   RDM_REF: '2021.10'
