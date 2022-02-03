@@ -17,6 +17,7 @@ on:
     paths-ignore: 
       - 'README.md'
       - 'LICENSE'
+  on: workflow_dispatch
 
 env:
   RDM_REF: '2021.10'
